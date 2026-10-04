@@ -1,5 +1,18 @@
 package Array;
 
+//Find Second Largest Element
+//Example 1:
+//Input: [5, 7, 9, 2, 4, 9]
+//Output: 7
+
+//Example 2:
+//Input: [1, 1, 1, 1]
+//Output: -1
+
+//Example 3:
+//Input: [7]
+//Output: -1
+
 public class SecondLargestInt {
     public static int findSecondLargestElement(int... arr) {
         if (arr.length < 2) {
